@@ -1,0 +1,127 @@
+.center {
+  align-items: center;
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.containerr {
+  background-color: rgb(237, 237, 237);
+  width: 30%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2%;
+}
+
+.head {
+  /* padding-left: 7%;
+  padding-top: 6%; */
+  margin-bottom: 5%;
+}
+
+.labl {
+  width: 32%;
+}
+
+.inpt {
+  width: 65%;
+}
+
+input {
+  width: 100%;
+}
+th{
+  padding: 10px;
+  text-align: center;
+}
+
+td{
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+table{
+  border: 1px solid;
+}
+
+#table{
+  display: none;
+}
+
+.name,
+.email,
+.contact,
+.message {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 7%; */
+  margin-bottom: 5%;
+}
+
+.butn {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  /* margin-bottom: 5%; */
+}
+
+.subtbtn,
+.clrbtn {
+  width: 20%;
+}
+
+button {
+  background-color: #cfe2f3;
+  border: 1.5px solid;
+}
+
+.backtoform {
+  display: none;
+  width: 15%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .containerr {
+      width: 80%;
+      padding: 5%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid;
+  }
+
+  .backtoform {
+      display: none;
+      width: 30%;
+      align-items: center;
+  }
+  .labl {
+      width: 38%;
+  }
+}
+@media (min-width:768px) {
+  .containerr {
+      width: 50%;
+  }
+}
+@media (min-width:1024px) {
+  .containerr {
+      width: 30%;
+  }
+}
+@media (min-width:1281px) {
+  .containerr {
+      background-color: rgb(237, 237, 237);
+      width: 26%;
+  }
+  .labl {
+      width: 40%;
+  }
+}
