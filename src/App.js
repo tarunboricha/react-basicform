@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [entries, updateEntries] = useState([]);
 
-  const url = "https://server-tarunboricha.onrender.com/api/user-list";
+  const url = "https://shiny-ox-helmet.cyclic.app/api/user-list";
   const submitt = () => {
     let namee = document.getElementsByTagName('input')[0].value;
     let emaill = document.getElementsByTagName('input')[1].value;
